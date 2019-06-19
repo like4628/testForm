@@ -1,0 +1,232 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2, p, span, h3, ul, a {
+  font-family: '微軟正黑體';
+}
+
+h2 {
+  color: #007BFF;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+}
+
+.navBar a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.navBar h2 {
+  padding-left: 40px;
+  color: #000000;
+}
+
+.title {
+  padding: 0 80px;
+  background-color: #EEEEEE;
+}
+
+.title hr {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.title h2 {
+  padding-left: 48px;
+  padding-top: 20px;
+  margin-top: 0pX;
+}
+
+.containerContent {
+  display: flex;
+  width: 1903px;
+  justify-content: center;
+  background-color: #EEEEEE;
+}
+
+.right, .left {
+  width: 810px;
+}
+
+.left {
+  padding: 0 20px;
+  background-color: #EEEEEE;
+}
+
+.right {
+  padding: 0 20px;
+  background-color: #EEEEEE;
+}
+
+.formula {
+  margin-top: 70px;
+}
+
+.reduceBodyFat ul {
+  padding-left: 18px;
+}
+
+.containerInput, .containerText {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.height, .weight, .age, .sex {
+  display: flex;
+  flex-direction: column;
+  padding: 0 35px;
+}
+
+.containerInput input, select {
+  margin-top: 10px;
+
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+
+}
+
+.BmiValue, .bodyRateValue, .BmiStandard, .bodyRateStandard {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  padding: 0 23px;
+}
+
+.containerText input, span {
+  margin-top: 10px;
+}
+
+.containerText input {
+  margin-top: 10px;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+.containerButton {
+  display: flex;
+  justify-content: center;
+  margin: 20px 750px;
+  ;
+}
+
+.calculator button {
+  border-radius: 4px;
+  background-color: #C19FDA;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  height: 80px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px 20px;
+  vertical-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.calculator button:hover {
+  background-color: #ABCFFC;
+}
+
+.calculator span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  margin-top: 0px;
+}
+
+.calculator span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.calculator:hover span {
+  padding-right: 25px;
+}
+
+.calculator:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.blank button {
+  border-radius: 4px;
+  background-color: #C19FDA;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  height: 80px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blank button:hover {
+  background-color: #ABCFFC;
+}
+
+.blank span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  margin-top: 0px;
+}
+
+.blank span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.blank:hover span {
+  padding-right: 25px;
+}
+
+.blank:hover span:after {
+  opacity: 1;
+  right: 0;
+}
