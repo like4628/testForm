@@ -60,6 +60,7 @@
       function BmiStandard(n) {
         if (n < 18.5) {
           $('#BmiStandard').val('太輕囉');
+          alert("宜盈趕快去吃飯")
         } else if (n > 24) {
           $('#BmiStandard').val('太重囉');
         } else {
@@ -127,7 +128,7 @@
     <div class="containerInput">
       <div class="height">
         <span>身高 (m):</span>
-        <input type="number" id="height" name="" value="" placeholder="請輸入身高">
+        <input type="number" id="height" name="" value="" placeholder="請輸入身高(單位為公尺唷)">
       </div>
       <div class="weight">
         <span>體重 (kg):</span>
