@@ -53,12 +53,14 @@ h2 {
   background-color: #EEEEEE;
 }
 
-.right {
-  width: 700px;
-}
 .left{
-  width: 700px;
+  margin-left:  300px;
+  margin-right:  20px;
 }
+.right {
+  margin-right:   300px;
+}
+
 
 .left {
   padding: 0 20px;
@@ -66,8 +68,8 @@ h2 {
 }
 
 .right {
-  padding: 0 20px;
   background-color: #EEEEEE;
+  margin-top: 30px;
 }
 
 .formula {
@@ -232,7 +234,12 @@ h2 {
   right: 0;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
+  body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
   .navBar{
     padding-right: 0px;
@@ -243,44 +250,50 @@ h2 {
   }
 
   .containerContent{
-    display: block;
-    width: 375px;
+    display: inline-block;
   }
-  .left,.right{
-    width: 214%;
-    padding-left:60px;
-    margin-right: 0px;
 
-  }
   .introduction h2{
     margin-top: 0px;
   }
   .left{
     padding-top: 10px;
-    height: 400px;
+    margin-left: 50px;
+    margin-right:  20px;
+
   }
   .right{
-    height:300px;
+    margin-right: 40px;
+    margin-left: 70px;
     padding-top:  18px;
+
+
   }
   .right h2{
     margin-top: -18px;
   }
+  .formula{
+    padding-bottom: 20px;
+  }
 
   .containerButton{
-    width:100%;
-    margin-left: 0px;
+    width:90%;
+    margin-left: 10px;
   }
 
   .containerInput,.containerText{
     display: block;
+    margin: 10px 50px;
+
+
   }
 
   .containerInput{
-    width: 93.5%;
+    width: 80%;
+
   }
   .containerText  {
-    width: 90%;
+    width: 70%;
     padding-left: 15px;
   }
 
