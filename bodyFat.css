@@ -15,13 +15,22 @@ h2 {
 .navBar {
   display: flex;
   justify-content: space-between;
-  background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 
 .navBar a {
-  padding-right: 20px;
   text-decoration: none;
   color: #007BFF;
+}
+
+.navBar img {
+  padding-right: 30px;
+  padding-top: 15px;
+  width: 40px;
+  opacity: 0.5;
+}
+.navBar img:hover {
+  opacity: 0.3;
 }
 
 .navBar h2 {
