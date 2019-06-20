@@ -278,12 +278,12 @@ h2 {
 
   .containerButton{
     width:90%;
-    margin:0 100px;
+    margin:0 30px;
   }
 
   .containerInput,.containerText{
     display: block;
-    margin: 10px 60px;
+    margin: 10px 30px;
 
 
   }
