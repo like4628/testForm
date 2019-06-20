@@ -277,13 +277,13 @@ h2 {
   }
 
   .containerButton{
-    width:80%;
+    width:70%;
     margin:0 20px;
   }
 
   .containerInput,.containerText{
     display: block;
-    margin: 10px 30px;
+    margin: 10px 20px;
 
 
   }
