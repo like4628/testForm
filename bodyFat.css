@@ -288,13 +288,16 @@ h2 {
   }
   .left{
     padding-top: 10px;
-    margin-left: 50px;
-    margin-right:  20px;
+    margin:0 auto;
+    /* margin-left: 50px;
+    margin-right:  20px; */
 
   }
   .right{
-    margin-right: 40px;
-    margin-left: 70px;
+    margin:0 auto;
+    /* margin-right: 40px;
+    margin-left: 60px; */
+    padding-right: 0px;
     padding-top:  18px;
 
 
