@@ -14,7 +14,7 @@
 
   <div class="navBar">
     <h2>體脂計算器</h2>
-    <a href="https://www.facebook.com/profile.php?id=100003999642145" target="_blank"><img src="fb.png" alt=""></a>
+    <a href="https://www.facebook.com/profile.php?id=100003999642145" target="_blank"><img src="img/fb.png" alt=""></a>
   </div>
 
   <script type="text/javascript">
@@ -48,7 +48,6 @@
           $("#height").val('');
           $("#weight").val('');
           $("#age").val('');
-          $("#sex").val('');
           $("#BmiValue").val('');
           $("#bodyRateValue").val('');
           $("#BmiStandard").val('');
@@ -60,7 +59,7 @@
       function BmiStandard(n) {
         if (n < 18.5) {
           $('#BmiStandard').val('太輕囉');
-          alert("宜盈趕快去吃飯")
+          // alert("宜盈趕快去吃飯")
         } else if (n > 24) {
           $('#BmiStandard').val('太重囉');
         } else {
