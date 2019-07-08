@@ -26,6 +26,7 @@
               a = $("#age").val(),
               s = $("#sex").val();
 
+
           if (h == '') {
             alert("請輸入身高 ~");
           } else if (w == "") {
@@ -44,6 +45,12 @@
             bodyRateStandard(s, bmiRate);
           }
         });
+        var BmiStandardResult = $("#BmiStandard");
+        if (BmiStandardResult <18.5){
+          alert("繼續保持");
+        }else if (BmiStandardResult >24) {
+          alert("繼續保持");
+        }
         $("#empty").click(function() {
           $("#height").val('');
           $("#weight").val('');
