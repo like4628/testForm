@@ -63,26 +63,32 @@ h2 {
 }
 
 .left{
-  margin-left:  300px;
-  margin-right:  20px;
+  margin-left:  250px;
+
 }
 .right {
-  margin-right:   300px;
+  margin-right:   250Px;
+  padding-left: 20PX;
+
 }
 
 
 .left {
-  padding: 0 20px;
+  padding: 0 20px ;
   background-color: #EEEEEE;
 }
 
 .right {
   background-color: #EEEEEE;
-  margin-top: 30px;
+
 }
 
 .formula {
-  margin-top: 70px;
+  margin-top: 75px;
+}
+.Standard{
+  padding-right:92px;
+
 }
 
 .reduceBodyFat ul {
@@ -93,19 +99,29 @@ h2 {
   margin-top: 20px;
   display: flex;
   justify-content: center;
+
 }
 
 .height, .weight, .age, .sex {
   display: flex;
   flex-direction: column;
-  padding: 0 35px;
+  margin:  0 52px 0 0;
 }
 
+.weight {
+  margin-left: -8px;
+}
+.age {
+  margin-left: -3px;
+}
+.sex {
+  margin-left: -2px;
+}
 .containerInput input, select {
     margin-top: 10px;
     width: 100%;
     height: calc(2.25rem + 2px);
-    padding: 0.375rem 0.75rem;
+    padding: 5px 15px;
     font-size: 1rem;
     line-height: 1.5;
     color: #495057;
@@ -116,10 +132,10 @@ h2 {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+
 .BmiValue, .bodyRateValue, .BmiStandard, .bodyRateStandard {
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   padding: 0 23px;
 }
@@ -132,7 +148,7 @@ h2 {
   margin-top: 10px;
   width: 100%;
   height: calc(2.25rem + 2px);
-  padding: 0.375rem 0.75rem;
+  padding: 5px 15px;;
   font-size: 1rem;
   line-height: 1.5;
   color: #495057;
@@ -142,6 +158,11 @@ h2 {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
+}
+
+.containerInformation{
+  margin:10px auto;
+  max-width: 1500px;
 }
 .containerButton {
   display: flex;
@@ -266,17 +287,22 @@ h2 {
     margin-top: 0px;
   }
   .left{
-    padding-top: 10px;
-    margin-left: 50px;
-    margin-right:  20px;
+    padding-right: 10px;
+    margin:0 20px;
+    /* margin-left: 50px;
+    margin-right:  20px; */
 
   }
   .right{
-    margin-right: 40px;
-    margin-left: 70px;
+    margin:0 20px;;
+    /* margin-right: 40px;
+    margin-left: 60px; */
+    padding-left: 20px;
+    padding-right: 5px;
     padding-top:  18px;
-
-
+  }
+  .Standard{
+    padding-right: 10px;
   }
   .right h2{
     margin-top: -18px;
@@ -284,22 +310,33 @@ h2 {
   .formula{
     padding-bottom: 20px;
   }
+  .formula h3{
+    font-size: 0.75em;
+  }
 
   .containerButton{
 
     margin:0 50px;
   }
 
-  .containerInput,.containerText{
+  .containerInput{
     display: block;
-    margin: 10px 20px;
+    margin: 10px 70px;
 
-
+  }
+  .containerText{
+    display: block;
+    margin: 10px 26px;
   }
 
   .containerInput{
-    width: 80%;
-
+    width: 70%;
+  }
+  .weight{
+    margin-left: 0.5px;
+  }
+  .age{
+    margin-left: -2px;
   }
   .containerText  {
     width: 70%;
