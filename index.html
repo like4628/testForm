@@ -33,7 +33,9 @@
             alert("請輸入體重 ~");
           } else if (a == "") {
             alert("請輸入年齡 ~");
-          } else {
+          } else if(h > 2) {
+            alert("你是不是巨人 身高要填公尺唷XD")
+          }  else {
             // 計算並回傳 BMI 數值，只取到小數點第 2 位
             var bmi = w / (h * h);
             $("#BmiValue").val(formatFloat(bmi, 2));
